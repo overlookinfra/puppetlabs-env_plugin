@@ -1,0 +1,11 @@
+{
+  "description": "Load an environment variable",
+  "input_method": "stdin",
+  "parameters": {
+    "var": {
+      "type": "String[1]",
+      "description": "The environment variable to load"
+    }
+  },
+  "files": ["ruby_task_helper/files/task_helper.rb"]
+}
